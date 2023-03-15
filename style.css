@@ -1,0 +1,289 @@
+  
+  h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 500%;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 100px 30px 100px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: red;
+  }
+
+  h2 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 300%;
+    font-weight: 900;
+    color: white;
+    margin: 50px 350px 50px 350px;
+  }
+
+  .h3-1 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 200%;
+    font-weight: 900;
+    color: red;
+    margin: 5px 10px 50px 25px;
+    padding: 10px 785px 10px 10px;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  #h3_1 {
+    color: white;
+    padding: 10px 885px 10px 10px;
+    background-color: #39bdf1;
+  }
+
+  #h3_2 {
+    color: black;
+    margin: 5px 10px 25px 25px;
+    padding: 10px 730px 10px 10px;
+    background-color: rgb(194, 193, 193);
+  }
+
+  #h3_3 {
+    color: white;
+    margin: 5px 10px 25px 25px;
+    padding: 10px 865px 10px 10px;
+    background-color: rgb(13, 90, 121);
+  }
+
+  #h3_4 {
+    color: white;
+    margin: 5px 10px 25px 25px;
+    padding: 10px 795px 10px 10px;
+    background-color: orangered;
+  }
+
+  .h4-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: green;
+    margin: 50px 135px 75px 130px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  .h4-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: white;
+    margin: 50px 135px 75px 130px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #39bdf1;
+  }
+
+  .h4-3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: white;
+    margin: 75px 665px 50px 130px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+  }
+
+  .h4-4 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: orangered;
+    margin: 5px 10px 50px 25px;
+    padding: 10px 180px 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  #h4_1 {
+    padding: 10px 210px 10px 10px;
+  }
+
+  .h5-1 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: green;
+    margin: 15px 0px 15px 20px;
+  }
+
+  .nav-enlace {
+    display: inline-block;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 100%;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    padding: 10px 65px 10px 65px;
+    border-radius: 5px;
+    background: white;
+  }
+
+  .nav-enlace:hover {
+    background: red;
+  }
+
+  nav {
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+  }
+
+  .div-1 {
+    margin: 100px 0px 50px 50px;
+  }
+
+  .div-1 img {
+    padding: 10px 0px;
+  }
+
+  .div-2 {
+    margin: 50px 0px 50px 160px;
+  }
+
+  .div-3 {
+    margin: 50px 0px 50px 130px;
+  }
+
+  .div-3 img {
+    padding: 5px 0px;
+  }
+
+  #div_1 {
+    margin: 50px 20px 50px 10px;
+    padding: 25px;
+    border-radius: 15px;
+    background-image: url(Fondo.jpg);
+  }
+
+  #div_1 img {
+    padding: 10px 0px 0px 0px;
+  }
+
+  #div_2 {
+    margin: 150px 0px 0px 0px;
+    padding: 25px;
+    background: black;
+  }
+
+  #div_3 {
+    margin: 0px;
+    padding: 25px;
+    background: grey;
+  }
+
+  .span-1 {
+    color: black;
+    padding: 0px;
+  }
+
+  #span_1 {
+    color: white;
+    padding: 50px;
+  }
+
+  .button-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 500;
+    color: white;
+    margin: 0px 0px 50px 123px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: green;
+  }
+
+  .button-1:hover {
+    background: black;
+  }
+
+  #button_1 {
+    margin: 0px 0px 50px 130px;
+  }
+
+  .button-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 500;
+    color: black;
+    margin: 0px 0px 50px 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #2929f8;
+  }
+
+  .button-2:hover {
+    background: white;
+  }
+
+  #button_2 {
+    margin: 0px 0px 50px 130px;
+  }
+
+  .p-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: blue;
+    margin: 15px 0px 25px 10px;
+  }
+
+  .p-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: black;
+    margin: 15px 0px 25px 135px;
+  }
+
+  #p_1 {
+    padding: 0px 0px 0px 20px;
+  }
+
+  .ul-1 {
+    margin: 15px 0px 15px 70px;
+  }
+
+  #ul_1 {
+    margin: 15px 0px 15px 115px;
+  }
+
+  .li-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: rgb(13, 90, 121);
+    margin: 15px 0px 25px 0px;
+  }
+
+  .li-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: black;
+    margin: 15px 0px 25px 0px;
+  }
+
+  .li-3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: black;
+    margin: 15px 0px 25px 0px;
+  }
+
+ 

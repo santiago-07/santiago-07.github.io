@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <link rel="icon" href="AAA.ico" type="ico" >
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="CV" />
+    <meta property="og:type" content="Trabajo Practico" />
+    <meta property="og:url" content="https://santiago-07.github.io/CV/" />
+    <meta property="og:image" content="https://santiago-07.github.io/CV/Foto.png" />
+    <meta property="og:description" content="Curriculum Vitae" />
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <nav>
+        <a href="#Datos Personales" class="nav-enlace">Datos Personales</a>
+        <a href="#Educación" class="nav-enlace">Educación</a>
+        <a href="#Experiencia Laboral" class="nav-enlace">Experiencia Laboral</a>
+        <a href="#Habilidades" class="nav-enlace">Habilidades</a>
+        <a href="#Datos de Interes" class="nav-enlace">Datos de Interes</a>
+    </nav>
+
+    <div id="div_1">
+        <img src="Foto.png" alt="Foto de perfil">
+        <h2>Gerardo Sosa</br>
+            <span id="span_1">Abogado</span>
+    </div>
+
+    <a name="Datos Personales">
+
+    <div class="div-1">
+        <img src="1.png" alt="Icono">
+        <h3 class="h3-1">Datos Personales</h3>
+    </div>
+
+    <button class="button-1" id="button_1" type="submit" onclick="showDiv1()">Perfil</button>
+    <button class="button-1" type="submit" onclick="showDiv2()">Contacto</button>
+    <button class="button-1" type="submit" onclick="showDiv3()">Perfil - Contacto</button>
+    <button class="button-1" type="submit" onclick="showDiv4()">Ocultar</button>
+
+    <div id="div_01" style="display: none">
+        <h4 class="h4-1">► Perfil</h4>
+
+        <div class="div-2">
+            <img src="edad.png" alt="Icono">
+            <h5 class="h5-1">• Edad:
+                <span class="span-1">25 años.</span>
+            </h5>
+        </div>
+
+        <div class="div-2"> 
+            <img src="nacionalidad.png" alt="Icono">
+            <h5 class="h5-1">• Nacionalidad:
+                <span class="span-1">Argentino.</span>
+            </h5>
+        </div>
+
+        <div class="div-2"> 
+            <img src="estado.png" alt="Icono">
+            <h5 class="h5-1">• Estado:
+                <span class="span-1">soltero.</span>
+            </h5>
+        </div>
+    </div>
+
+    <div id="div_02" style="display: none" >
+        <h4 class="h4-1">► Contacto</h4>
+
+        <div class="div-2">
+            <img src="telefono.png" alt="Icono">
+            <h5 class="h5-1">• Telefono:
+                <span class="span-1">0351-5813-386.</span>
+            </h5>
+        </div>
+
+        <div class="div-2"> 
+            <img src="gmail.png" alt="Icono">
+            <h5 class="h5-1">• Correo electrónico:
+                <span class="span-1">gerardososa@gmail.com.</span>
+            </h5>
+        </div>
+
+        <div class="div-2"> 
+            <img src="facebook.png" alt="Icono">
+            <h5 class="h5-1">• Facebook:
+                <span class="span-1">Gerardo Sosa.</span>
+            </h5>
+        </div>
+
+        <div class="div-2"> 
+            <img src="dirección.png" alt="Icono">
+            <h5 class="h5-1">• Dirección:
+                <span class="span-1">221B de Baker Street.</span>
+            </h5>    
+        </div>
+
+    </div>
+
+    <a name="Educación">
+
+    <div class="div-1">
+        <img src="2.png" alt="Icono">
+        <h3 class="h3-1" id="h3_1">Educación</h3>
+    </div>
+
+    <button class="button-2" id="button_2" type="submit" onclick="showDiv5()">Estudios Primarios</button>
+    <button class="button-2" type="submit" onclick="showDiv6()">Estudios Secundarios</button>
+    <button class="button-2" type="submit" onclick="showDiv7()">Estudios Universitarios</button>
+    <button class="button-2" type="submit" onclick="showDiv8()">Ocultar</button>
+
+    <div id="div_03" style="display: none">
+        <h4 class="h4-2">► Estudios Primarios</h4>
+
+        <div class="div-2">
+            <p class="p-1">- Escuela "Ricardo Rojas", 2004-2007.</p>
+            <p class="p-1">- Escuela "Teniente General Pablo Richeri", 2008-2009.</p>
+        </div>
+    </div>
+
+    <div id="div_04" style="display: none">
+        <h4 class="h4-2">► Estudios Secundarios</h4>
+
+        <div class="div-2">
+            <p class="p-1">- C.B.U. IPET Nº 249 "Nicolás Copérnico", 2010-2012.</p>
+            <p class="p-1">- C.E. IPET Nº 249 "Nicolás Copérnico", 2013-2015, Tecnicatura en Electrónica.</p>
+            <p class="p-1" id="p_1">Mención Honorifica 2015, Proyecto innovador.</p>
+        </div>
+    </div>
+
+    <div id="div_05" style="display: none">
+        <h4 class="h4-2">► Estudios Universitarios</h4>
+
+        <div class="div-2">
+            <p class="p-1">- Facultad de Derecho U.N.C. 2017-2021, Carrera: Abogacía.</p>
+        </div>
+    </div>
+
+    <a name="Experiencia Laboral">
+
+    <div class="div-1">
+        <img src="3.png" alt="Icono">
+        <h3 class="h3-1" id="h3_2">Experiencia Laboral</h3>
+    </div>
+
+    <div>
+        <h4 class="h4-3">♦ Cine Hoyts, 2016.</h4>
+        <p class="p-2">Importante y reconocida cadena de cines.</p>
+        <p class="p-2">Multiples tareas, atención al cliente, reposición de gondolas, manejo de caja registradora, etc.</p>
+    </div>
+
+    <div>
+        <h4 class="h4-3">♦ Venex, 2017-2019.</h4>
+        <p class="p-2">Tienda de venta de equipos de computo y Hardware de Pc.</p>
+        <p class="p-2">Empleo de tiempo parcial, desempeñando tareas de atención al cliente, embalaje y despacho de productos, diagnostico de equipos, etc. </p>
+    </div>
+
+    <div>
+        <h4 class="h4-3">♦ Colegio de Abogados, 20020-2021.</h4>
+        <p class="p-2">Pasantia de medio tiempo.</p>
+        <p class="p-2">Asistente Juridico, desempeñando actividades tales como asesorar y proporcionar atención al público; organizar citas o entrevistas con los abogados; tramitar causas en tribunales; etc.</p>
+    </div>
+
+    <div>
+        <h4 class="h4-3">♦ Cooke Abogados.</h4>
+        <p class="p-2">Estudio juridico.</p>
+        <p class="p-2">Abogado especializado en Derecho Laboral. Asesoramiento profesional en todos los asuntos concernientes, despidos, trabajo en negro, accidentes de trabajo, monotributistas, etc.</p>
+    </div>
+
+    <a name="Habilidades">
+
+    <div class="div-1">
+        <img src="4.png" alt="Icono">
+        <h3 class="h3-1" id="h3_3">Habilidades</h3>
+    </div> 
+
+    <ul id="ul_1">
+        <li class="li-1">Pro activo.</li>
+        <li class="li-1">Mente abierta.</li>
+        <li class="li-1">Capacidad de adaptación.</li>
+        <li class="li-1">Resolución de problemas.</li>
+        <li class="li-1">Correr con las dos piernas.</li>
+        <li class="li-1">Capacidad de trabajo en equipo.</li>
+    </ul>
+
+    <a name="Datos de Interes">
+
+    <div class="div-1">
+        <img src="5.png" alt="Icono">
+        <h3 class="h3-1" id="h3_4">Datos de Interes</h3>
+    </div>
+
+    <div class="div-3">
+        <img src="6.png" alt="Icono">
+        <h4 class="h4-4">Idiomas</h3>
+            <ul class="ul-1">
+                <li class="li-2">Ingles avanzado.</li>
+                <li class="li-2">Frances intermedio.</li>
+            </ul>
+    </div>
+
+    <div class="div-3">
+        <img src="7.png" alt="Icono">
+        <h4 class="h4-4" id="h4_1">Otros</h3>
+            <ul class="ul-1">
+                <li class="li-3">Carnet de conducir.</li>
+                <li class="li-3">Movilidad: vehiculo particular.</li>
+                <li class="li-3">Disponibilidad horaria: full time.</li>
+                <li class="li-3">Disponibilidad para viajar o establecerse en otra ciudad.</li>
+            </ul>
+    </div>
+
+    <footer>
+        <div id="div_2">
+            <a title="Acceder a facebook" href="https://facebook.com/" target="_blank">
+            <img src="f-facebook.png" alt="Icono"></a>
+
+            <a title="Acceder a twitter" href="https://twitter.com/" target="_blank">
+            <img src="f-twitter.png" alt="Icono"></a>
+
+            <a title="Acceder a instagram" href="https://www.instagram.com/" target="_blank">
+            <img src="f-instagram.png" alt="Icono"></a>
+
+            <a title="Acceder a whatsapp" href="https://web.whatsapp.com/" target="_blank">
+            <img src="f-whatsapp.png" alt="Icono"></a>
+        </div>
+
+        <div id="div_3">
+            <p>Copyright © 2023  |   Aviso legal</p>
+        </div>
+    </footer>
+
+    <script src="cv.js"></script>
+
+</body>
+</html>
